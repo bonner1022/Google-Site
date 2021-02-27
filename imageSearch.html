@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Google Image Search</title>
+        <style>
+            form {
+                text-align: center;
+                padding: 5px;
+            }
+
+            #link {
+                text-align: right;
+                float: right;
+            }
+
+            h1{
+                text-align: center;
+                color: 50 50 50;
+            }
+
+            #bar {
+                width: 550px;
+                margin-top : 20px;
+                font-size: 20px;
+                border-radius: 25px;
+            }
+
+            #main {
+                text-align: center;
+                font-size: 150px;
+                font-family: futura;
+                height: 175px;
+                line-height: 0.9; 
+            }
+
+            #big {
+                text-align: center;
+                font-size: 20px;
+                color: cornflowerblue;
+                font-family: futura;
+            }
+
+            #sub {
+                width: 200px;
+                height: 25px;
+                margin: 10px;
+                background-color: cornflowerblue;
+                border: none;
+            }
+
+            .username span {
+                text-align: center;
+                float: center;
+                font-size: 90px;
+                color:cornflowerblue;
+            }
+
+            .username span:nth-child(2) {
+                text-align: center;
+                font-size: 90px;
+                color: red;
+            }
+
+            .username span:nth-child(3) {
+                text-align: center;
+                font-size: 90px;
+                color:gold;
+            }
+
+            .username span:nth-child(5) {
+                text-align: center;
+                font-size: 90px;
+                color: green;
+            }
+
+            .username span:nth-child(6) {
+                text-align: center;
+                font-size: 90px;
+                color: red;
+            }
+
+            #bottom {
+                color:darkslategray;
+                margin-top: 310px;
+                background-color:lightgrey;
+                height: 30px;
+                width: 100%;
+                padding-top: 15px;
+                /* padding-left: 10px; */
+                font-size: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <a id="link" href="index.html"> Back to Google Search </a>
+        <br> <br> <br> <br>
+        <div id="main"> 
+            <span class="username"><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+        
+            <div id="big">
+                Images
+            </div>
+        </div> 
+        <form action="https://google.com/images">
+            <input id="bar" type="text" name="q">
+            <br>
+            <input id="sub" type="submit" value="Google Images">
+        </form>
+
+        <div id="bottom">
+            <a style="padding-left: 20px" href="https://ads.google.com/"> Advertising </a>
+            <a style="padding-left: 25px" href="https://smallbusiness.withgoogle.com/"> Business </a>
+            <a style="padding-left: 25px" href="https://about.google/"> About </a>
+            <a style="padding-left: 25px"href="https://www.google.com/search/howsearchworks"> How Stuff Works </a>
+            <a style="padding-left: 720px" href="https://policies.google.com/privacy"> Privacy </a>
+            <a style="padding-left: 25px" href="https://policies.google.com/terms"> Terms </a>
+            <a style="padding-left: 25px" href="imageSearch.html"> Settings </a>
+        </div>
+    </body>
+</html>

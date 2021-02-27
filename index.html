@@ -1,0 +1,123 @@
+<!-- Simulate Google's front end site. Implement google search, image search and advanced search 
+with same functionality and similar styling -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Search</title>
+        <style>
+            .username span {
+                text-align: center;
+                float: center;
+                font-size: 90px;
+                color:cornflowerblue;
+            }
+
+            .username span:nth-child(2) {
+                text-align: center;
+                font-size: 90px;
+                color: red;
+            }
+
+            .username span:nth-child(3) {
+                text-align: center;
+                font-size: 90px;
+                color:gold;
+            }
+
+            .username span:nth-child(5) {
+                text-align: center;
+                font-size: 90px;
+                color: green;
+            }
+
+            .username span:nth-child(6) {
+                text-align: center;
+                font-size: 90px;
+                color: red;
+            }
+
+            #begin {
+                margin-top: 20px;
+                margin-left: 16px;
+                margin-right: 16px;
+                height: 50px;
+                font-size: 15px;
+            }
+
+            #begin > #store {
+                margin-left: 20px;
+            }
+
+            #begin > #firstLink {
+                margin-left: 1085px;
+            }
+
+            #begin > #secondLink {
+                margin-left: 1160px;
+            }
+
+            #main {
+                text-align: center;
+                font-size: 120px;
+                font-family: futura;
+            }
+
+            form {
+                text-align: center;
+                margin: 25px;
+            }
+
+            form input {
+                width: 180px;
+                height: 400px;
+            }
+
+            #temp {
+                width: 550px;
+                border-radius: 25px;
+            }
+
+            #bottom {
+                color:darkslategray;
+                margin-top: 342px;
+                background-color:lightgrey;
+                height: 30px;
+                width: 100%;
+                padding-top: 15px;
+                padding-left: 10px;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="begin">
+            <a id="about" href="https://about.google/"> About </a>
+            <a id="store" href="https://store.google.com/"> Store </a>
+            <a id="firstLink" href="imageSearch.html"> Image Search </a>
+            <br>
+            <a id="secondLink" href="advanceSearch.html"> Advanced Search</a>
+        </div> 
+        
+        <div id="main"> 
+            <span class="username"><span>G</span><span>o</span><span>o</span><span>g</span><span>l</span><span>e</span>
+        </div>
+
+        <form action="https://google.com/search">
+            <input style="font-size: 20px; height:30px" id="temp" type="text" name="q">
+            <br> <br> 
+            <input type="submit" value="Google Search">
+            
+            <input type="submit" value="I'm Feeling Lucky" name="btnI"></button>
+        </form>
+
+        <div id="bottom">
+            <a style="padding-left: 10px" href="https://ads.google.com/"> Advertising </a>
+            <a style="padding-left: 25px" href="https://smallbusiness.withgoogle.com/"> Business </a>
+            <a style="padding-left: 25px"href="https://www.google.com/search/howsearchworks"> How Stuff Works </a>
+            <a style="padding-left: 250px" href="https://sustainability.google/"> Carbon Neutral since 2007 </a>
+            <a style="padding-left: 320px" href="https://policies.google.com/privacy"> Privacy </a>
+            <a style="padding-left: 20px" href="https://policies.google.com/terms"> Terms </a>
+            <a style="padding-left: 20px" href="imageSearch.html"> Settings </a>
+        </div>
+    </body>
+</html>
